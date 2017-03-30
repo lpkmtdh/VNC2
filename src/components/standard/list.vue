@@ -1,23 +1,25 @@
 <template>
   <div>
-    list111111111110<p/>
-    list111111111111<p/>
-    list111111111112<p/>
-    list111111111113<p/>
-    list111111111114<p/>
-    list111111111115<p/>
+    <ul>
+      <list-item v-for="item in standardList.Standard.list" :item="item" :key="item.id"></list-item>
+    </ul>
   </div>
 </template>
 <script>
+  import { mapGetters } from 'vuex'
+  import listItem from "../standard/list-item.vue"
     export default {
         components: {
-
+          listItem
         },
         data() {
             return {
                 "titleName": "布线标准"
             }
-        }
+        },
+      computed: {
+        ...mapGetters(['standardList'])
+      }
     }
 </script>
 <style>

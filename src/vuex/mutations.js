@@ -9,5 +9,8 @@ const mutations = {
     setTitleName(state, name) {
         state.head.title = titleMap[name.toLowerCase()];
     }
+    ,setStandardDeailImgMaxWidth(state,width){
+        state.standardDetal.ImgMaxWidth = width;
+    }
 }
 export default mutations
