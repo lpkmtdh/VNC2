@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
+    <content url="file://$MODULE_DIR$/../cordova-vnc">
+      <excludeFolder url="file://$MODULE_DIR$/../cordova-vnc/platforms" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

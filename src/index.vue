@@ -24,13 +24,10 @@
     components:{TabNav},
     data () {
       return {
-//        "routerAnimate": false,
-//        "enterAnimate": "", //页面进入动效
-//        "leaveAnimate": "" //页面离开动效
       }
     },
     computed: {
-      ...mapGetters(['head'])
+      ...mapGetters(['head','standardList'])
     }
   }
 </script>

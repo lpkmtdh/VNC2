@@ -96,7 +96,7 @@
         //console.log(this.$route.query.id);
        // alert( document.body.clientWidth);
         this.init();
-
+        //this.$store.dispatch("getPicTest");
       }
       ,methods: {
         init(){

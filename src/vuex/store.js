@@ -3,21 +3,18 @@
  */
 import Vue from 'vue'
 import Vuex from 'vuex'
-import VueResource from 'vue-resource'
 
 import mutations from "./mutations"
 import actions from "./actions"
 import getters from "./getters"
 
 Vue.use(Vuex);
-Vue.use(VueResource)
-
 
 const StandardList = {"Standard":{v:"1","list":[{
   id: 0,
   title: '设备仪安装',
   Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内.设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内.',
-  img: './static/img/ben.png'
+  img: 'https://apigatewayqa.sgmlink.com:3223/service/tdsmobilehtml5/MobileContent/H5icon/akw-circle.png'
 },
   {
     id: 1,
