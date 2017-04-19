@@ -18,7 +18,6 @@
 <script>
   import { mapGetters } from 'vuex'
   import TabNav from './components/common/tab-nav'
-
   export default {
     name: 'Index',
     components:{TabNav},

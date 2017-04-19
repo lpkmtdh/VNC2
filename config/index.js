@@ -11,7 +11,7 @@ module.exports = {
 
     //assetsSubDirectory: 'static',
     //assetsPublicPath: '/VNC/',
-    assetsSubDirectory: '',
+    assetsSubDirectory: 'static',
     assetsPublicPath: '',
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as

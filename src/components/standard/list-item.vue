@@ -5,6 +5,7 @@
         <!--<img src="./../../assets/img/adam.jpg" >-->
         <h2 class="marginTop5" v-text="item.title"></h2>
         <p class="marginTop5" v-text="item.Desc"></p>
+
       </router-link>
     </li>
 </template>

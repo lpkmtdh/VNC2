@@ -13,6 +13,8 @@
 </template>
 
 <script>
+  // 支持低版本的浏览器
+  require('babel-polyfill');
 
 export default {
   name: 'app',
@@ -23,8 +25,8 @@ export default {
       "enterAnimate": "", //页面进入动效
       "leaveAnimate": "" //页面离开动效
     }
-  },
-  watch: {
+  }
+ ,watch: {
     // 监听 $route 为店内页设置不同的过渡效果
     "$route" (to, from) {
 //      console.log(to.name+"==="+to.path);

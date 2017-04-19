@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 import store from './vuex/store'
 
+import VueCordova from 'vue-cordova'
+Vue.use(VueCordova)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -13,4 +16,4 @@ new Vue({
   router,
   store,
   render: h => h(App)
-})
+});
