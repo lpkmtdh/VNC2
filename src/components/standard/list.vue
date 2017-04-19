@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <list-item v-for="item in standardList.Standard.list" :item="item" :key="item.id"></list-item>
+      <list-item v-for="item in standardList.Standard.list" :item="item" :key="item.id" ></list-item>
     </ul>
   </div>
 </template>

@@ -7,7 +7,7 @@
     chcke005<p/>
     chcke006<p/>
 
-    <button v-on:click="takePhoto">拍照</button>
+    <button @click="takePhoto">拍照</button>
   </div>
 </template>
 <script>
