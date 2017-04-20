@@ -31,37 +31,38 @@ const StandardList = {"Standard":{v:"1","list":[{
     title: '检查项目3',
     Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
     img: './static/img/mike.png'
-  }, {
-    id: 4,
-    title: '检查项目4',
-    Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
-    img: './static/img/mike.png'
-  }, {
-    id: 5,
-    title: '检查项目5',
-    Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
-    img: './static/img/mike.png'
-  }, {
-    id: 6,
-    title: '检查项目6',
-    Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
-    img: './static/img/mike.png'
-  }, {
-    id: 7,
-    title: '检查项目7',
-    Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
-    img: './static/img/mike.png'
-  }, {
-    id: 8,
-    title: '检查项目8',
-    Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
-    img: './static/img/mike.png'
-  }, {
-    id: 9,
-    title: '检查项目9',
-    Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
-    img: './static/img/mike.png'
   }
+  // , {
+  //   id: 4,
+  //   title: '检查项目4',
+  //   Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
+  //   img: './static/img/mike.png'
+  // }, {
+  //   id: 5,
+  //   title: '检查项目5',
+  //   Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
+  //   img: './static/img/mike.png'
+  // }, {
+  //   id: 6,
+  //   title: '检查项目6',
+  //   Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
+  //   img: './static/img/mike.png'
+  // }, {
+  //   id: 7,
+  //   title: '检查项目7',
+  //   Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
+  //   img: './static/img/mike.png'
+  // }, {
+  //   id: 8,
+  //   title: '检查项目8',
+  //   Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
+  //   img: './static/img/mike.png'
+  // }, {
+  //   id: 9,
+  //   title: '检查项目9',
+  //   Desc: '设备仪器应采用捆扎或固定于定制支架等适当的方法固定于车辆内444...',
+  //   img: './static/img/mike.png'
+  // }
 ]}};
 
 const store = new Vuex.Store({

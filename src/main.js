@@ -6,6 +6,11 @@ import router from './router'
 import store from './vuex/store'
 
 import VueCordova from 'vue-cordova'
+
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+
+Vue.use(MintUI)
 Vue.use(VueCordova)
 
 Vue.config.productionTip = false
